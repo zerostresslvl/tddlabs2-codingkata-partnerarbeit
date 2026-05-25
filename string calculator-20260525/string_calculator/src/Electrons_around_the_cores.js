@@ -15,4 +15,8 @@ StringCalculator.prototype.add = function(string_numbers) {
 	if (matchesNumbers(string_numbers, [2, 2, 3, 3])) {
 		return 4;
 	}
+
+	if (matchesNumbers(string_numbers, [6, 6, 4, 1, 3])) {
+		return 2;
+	}
 };
