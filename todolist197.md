@@ -10,4 +10,8 @@
 -> write minimal code in `src/string_calculator.js` to pass always and switch up with my partner for the cases
 -> refactor if needed
 
-.
+
+- after all the testing we found a generic solution of dividing by 2 and then subtracting by 1 for all odd numbers
+- then we add it all up as our return value and all even numbers are ignored
+
+- testing for cases outside of the dice also so outside of 1 and 6 that's our current new test case so we're testing for edge cases just remembered it becomes an edge case in this condition thus we added it on 
