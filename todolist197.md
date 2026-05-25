@@ -10,4 +10,4 @@
 -> write minimal code in `src/string_calculator.js` to pass always and switch up with my partner for the cases
 -> refactor if needed
 
-
+.
