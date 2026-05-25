@@ -15,7 +15,7 @@ describe('Electrons around the cores', function() {
 		expect(calculator.add([2, 2, 3, 3])).toEqual(4);
 	});
 
-	it('should return the correct result for [6, 6, 4, 1, 3]', function() {
-		expect(calculator.add([6, 6, 4, 1, 3])).toEqual(2);
+	it('should return the correct result for [6, 6, 4, 4, 1, 3]', function() {
+		expect(calculator.add([6, 6, 4, 4, 1, 3])).toEqual(2);
 	});
 });
