@@ -10,4 +10,8 @@ describe('Electrons around the cores', function() {
 	it('should return the correct result for [1, 2, 3, 4, 5]', function() {
 	expect(calculator.add([1, 2, 3, 4, 5])).toEqual(6);
 });
+
+	it('should return the correct result for [2, 2, 3, 3]', function() {
+		expect(calculator.add([2, 2, 3, 3])).toEqual(4);
+	});
 });
